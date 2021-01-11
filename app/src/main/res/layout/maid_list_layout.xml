@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/product_maids_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maid's Name"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            />
+        
+        <ImageView
+            android:id="@+id/product_maid_info_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/product_maids_name"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/product_maids_salary1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maid_info_image"
+            android:text="Type1 Salary"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorAccent"
+            />
+        <TextView
+            android:id="@+id/product_maids_salary2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maid_info_image"
+            android:text="Type2 Salary"
+            android:layout_marginLeft="115dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/product_maids_salary3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maid_info_image"
+            android:text="Type3 Salary"
+            android:layout_marginLeft="225dp"
+            android:textAlignment="center"
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/product_maids_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maids_salary1"
+
+            android:text="Maid's Description"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            />
+        <TextView
+            android:id="@+id/product_maids_present_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maids_description"
+            android:text="Maid's Present Address"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            />
+          
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

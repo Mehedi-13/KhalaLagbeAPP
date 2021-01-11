@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    android:layout_marginBottom="5dp"
+    tools:context=".AdminMaintainMaidActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/product_maid_info_image_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            />
+
+        <EditText
+            android:id="@+id/maid_name_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maid_info_image_maintain"
+            android:hint="Maid's Name"
+            android:background="@drawable/input_design"
+
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/product_maids_salary1_maintain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maid_name_maintain"
+            android:hint="1st Salary"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:background="@drawable/input_design"
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorAccent"
+            />
+        <EditText
+            android:id="@+id/product_maids_salary2_maintain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maid_name_maintain"
+            android:hint="2nd Salary"
+            android:inputType="phone"
+            android:background="@drawable/input_design"
+            android:layout_marginLeft="110dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:padding="8dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/product_maids_salary3_maintain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maid_name_maintain"
+            android:hint="3rd Salary"
+            android:background="@drawable/input_design"
+            android:layout_marginLeft="220dp"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:layout_marginTop="2dp"
+            android:padding="8dp"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/product_maids_description_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maids_salary1_maintain"
+            android:background="@drawable/input_design"
+            android:padding="10dp"
+            android:hint="Maid's Description"
+            android:scrollbars="vertical"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            />
+        <EditText
+            android:id="@+id/product_maids_present_address_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maids_description_maintain"
+            android:hint="Maid's Present Address"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:scrollbars="vertical"
+            android:background="@drawable/input_design"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+
+            />
+
+        <EditText
+            android:id="@+id/product_maids_phoneNumber_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maids_present_address_maintain"
+            android:hint="Maid's Phone Number"
+            android:inputType="phone"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:scrollbars="vertical"
+            android:background="@drawable/input_design"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+
+            />
+
+        <Button
+            android:id="@+id/apply_change_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_maids_phoneNumber_maintain"
+            android:text="Apply Changes"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:scrollbars="vertical"
+            android:background="@drawable/buttons"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:id="@+id/delete_maid_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/apply_change_maintain"
+            android:text="Delete This Maid Info"
+            android:layout_margin="30dp"
+            android:textAlignment="center"
+            android:textSize="18dp"
+
+            android:scrollbars="vertical"
+            android:background="@drawable/buttons"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            />
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</androidx.cardview.widget.CardView>

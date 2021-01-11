@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/cart_maids_name"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold"
+            android:text="Maid's Name"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/cart_member_quantity"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="2dp"
+            android:text="Member quantity"
+            android:textStyle="bold"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/cart_maid_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maid's Salary"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:layout_below="@+id/cart_member_quantity"
+            android:layout_marginTop="25dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "802707775444",
+    "project_id": "khala-lagbe-19959",
+    "storage_bucket": "khala-lagbe-19959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802707775444:android:7dbb22e224c164d41b8041",
+        "android_client_info": {
+          "package_name": "com.example.khalalagbeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802707775444-hmclvp8sl0tmoq14jeamroqmh3kqfu0j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khalalagbeapp",
+            "certificate_hash": "9318183316b91e7ee247348b55d041fb4beeedd8"
+          }
+        },
+        {
+          "client_id": "802707775444-h95p94ftmge1jg5iiaometstc1jehdac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCTeqNJMMjqSNPJaf5qIkGH9yg3Y295b4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802707775444-h95p94ftmge1jg5iiaometstc1jehdac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

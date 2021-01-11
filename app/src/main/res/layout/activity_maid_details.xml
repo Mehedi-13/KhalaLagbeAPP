@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaidDetailsActivity">
+
+
+
+
+
+    <ImageView
+        android:id="@+id/maid_image_details"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:scaleType="centerCrop"
+
+        />
+    <TextView
+        android:id="@+id/maids_name_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maid_image_details"
+        android:text="Maid's Name"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/maids_present_address_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maids_name_details"
+        android:text="Maid's Address"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/maids_description_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maids_present_address_details"
+        android:text="Maid's Description"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/maids_salary_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maids_description_details"
+        android:text="Maid's Salary"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="start"
+
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/maids_salary2_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maids_salary_details"
+        android:text="Maid's Salary"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/maids_salary3_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maids_salary2_details"
+        android:text="Maid's Salary"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+
+        android:gravity="end"
+        />
+
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/number_btn"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/maids_salary3_details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:elevation="6dp"
+        app:finalNumber="50"
+        app:initialNumber="1"
+        app:textSize="10sp"
+
+        >
+
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+
+    <Button
+        android:id="@+id/maid_add_to_cart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:text="Add To Cart"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        />
+
+
+</RelativeLayout>
