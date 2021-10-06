@@ -3,14 +3,16 @@ package com.example.khalalagbeapp.Model;
 public class Maids
 {
    private String mname, category, date,description,image,time,mid, type1_price,type2_price,
-            type3_price,present_address ,maid_PhoneNumber;
+            type3_price,present_address ,maid_PhoneNumber,productState;
 
     public Maids()
     {
 
     }
 
-    public Maids(String mname, String category, String date, String description, String image, String time, String mid, String type1_price, String type2_price, String type3_price, String present_address, String maid_PhoneNumber) {
+    public Maids(String mname, String category, String date, String description, String image, String time,
+                 String mid, String type1_price, String type2_price,
+                 String type3_price, String present_address, String maid_PhoneNumber, String productState) {
         this.mname = mname;
         this.category = category;
         this.date = date;
@@ -23,6 +25,7 @@ public class Maids
         this.type3_price = type3_price;
         this.present_address = present_address;
         this.maid_PhoneNumber = maid_PhoneNumber;
+        this.productState = productState;
     }
 
     public String getMname() {
@@ -119,5 +122,13 @@ public class Maids
 
     public void setMaid_PhoneNumber(String maid_PhoneNumber) {
         this.maid_PhoneNumber = maid_PhoneNumber;
+    }
+
+    public String getProductState() {
+        return productState;
+    }
+
+    public void setProductState(String productState) {
+        this.productState = productState;
     }
 }

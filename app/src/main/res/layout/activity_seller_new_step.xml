@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".sellerNewStep">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_seller_login"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/sellerlogin" />-->
+
+    <Button
+        android:id="@+id/seller_registration1111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Registration for Maid's"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_dark"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginBottom="15dp"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/seller_already_haveAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/seller_registration1111"
+        android:text="Already have an Account?"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_dark"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginBottom="15dp"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>

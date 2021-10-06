@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:scrollbars="vertical"
     android:orientation="vertical"
-    tools:context=".ConfirmFinalHireActivity">
+    tools:context=".Buyers.ConfirmFinalHireActivity">
 
     <ScrollView
         android:layout_width="match_parent"

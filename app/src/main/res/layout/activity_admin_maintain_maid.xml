@@ -9,7 +9,7 @@
     android:layout_marginEnd="15dp"
     app:cardElevation="15dp"
     android:layout_marginBottom="5dp"
-    tools:context=".AdminMaintainMaidActivity">
+    tools:context=".Admin.AdminMaintainMaidActivity">
 
     <ScrollView
         android:layout_width="match_parent"
